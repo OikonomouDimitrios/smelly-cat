@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #eff1f4;
+  font-family: "Manrope";
+}
+
+.navbar-nav .nav-link {
+  font-weight: 800;
+  color: #555555;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("assets/Manrope-ExtraBold.ttf");
+  font-weight: 800;
+}
