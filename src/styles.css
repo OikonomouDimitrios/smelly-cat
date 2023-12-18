@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-color: #eff1f4;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #000000;
 }
 .fs-text {
@@ -32,13 +32,23 @@ small.text-muted.form-text {
   color: #9784ff !important;
 }
 
+.copyright {
+  font-size: 0.75rem;
+}
+
+.list-group-item {
+  font-size: 0.875rem;
+}
+
 .form-check-input:checked[type="checkbox"] {
   --bs-form-check-bg-image: url("assets/black-checkmark.png");
 }
 .form-check-label {
   color: #555555;
 }
-
+footer.bg-dark {
+  color: #000000;
+}
 .btn.btn-primary.btn-lg {
   background-color: #ef7878;
 }
