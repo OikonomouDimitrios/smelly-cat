@@ -4,6 +4,7 @@ body {
   font-family: "Manrope", sans-serif;
   color: #000000;
 }
+
 .fs-text {
   font-size: 1.125rem;
 }
@@ -19,11 +20,14 @@ body {
 .fw-extrabold {
   font-weight: 800;
 }
+
 .border-gray {
   color: #cccccc;
 }
+
 label,
-.col-form-label {
+.col-form-label,
+.list-group-item {
   font-size: 0.875rem;
   font-weight: 600;
 }
@@ -35,9 +39,8 @@ small.text-muted.form-text {
 .copyright {
   font-size: 0.75rem;
 }
-
-.list-group-item {
-  font-size: 0.875rem;
+textarea {
+  resize: none;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -47,7 +50,7 @@ small.text-muted.form-text {
   color: #555555;
 }
 footer.bg-dark {
-  color: #000000;
+  background-color: #000000 !important;
 }
 .btn.btn-primary.btn-lg {
   background-color: #ef7878;
