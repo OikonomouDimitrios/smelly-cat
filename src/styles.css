@@ -2,22 +2,26 @@
 body {
   background-color: #eff1f4;
   font-family: "Manrope";
-  color:#000000;
+  color: #000000;
 }
-
+.fs-text {
+  font-size: 1.125rem;
+}
 ::placeholder {
   color: #a0a9ba !important;
 }
 .navbar-nav .nav-link {
   font-weight: 800;
   color: #555555;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
-h1 {
+.fw-extrabold {
   font-weight: 800;
 }
-
+.border-gray {
+  color: #cccccc;
+}
 label,
 .col-form-label {
   font-size: 0.875rem;
@@ -31,12 +35,12 @@ small.text-muted.form-text {
 .form-check-input:checked[type="checkbox"] {
   --bs-form-check-bg-image: url("assets/black-checkmark.png");
 }
-.form-check-label{
-  color:#555555;
+.form-check-label {
+  color: #555555;
 }
 
 .btn.btn-primary.btn-lg {
-  background-color: #EF7878;
+  background-color: #ef7878;
 }
 
 @font-face {
