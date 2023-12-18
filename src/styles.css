@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-color: #eff1f4;
-  font-family: "Manrope";
+  font-family: 'Manrope', sans-serif;
   color: #000000;
 }
 .fs-text {
@@ -45,49 +45,49 @@ small.text-muted.form-text {
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-ExtraLight.ttf");
+  src: url("assets/fonts/Manrope/Manrope-ExtraLight.ttf");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-Light.ttf") format("truetype");
+  src: url("assets/fonts/Manrope/Manrope-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Manrope/Manrope-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-Medium.ttf") format("truetype");
+  src: url("assets/fonts/Manrope/Manrope-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-SemiBold.ttf") format("truetype");
+  src: url("assets/fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-Bold.ttf") format("truetype");
+  src: url("assets/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("assets/Manrope-ExtraBold.ttf");
+  src: url("assets/fonts/Manrope/Manrope-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
 }
